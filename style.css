@@ -10,6 +10,7 @@
   background-color: #0f1111;
   color: white;
   display: flex;
+  gap: 1rem;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -59,6 +60,10 @@
   border-bottom-right-radius: 5px;
   justify-content: space-evenly;
 }
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
 .search-select {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -87,4 +92,22 @@ input::placeholder {
   font-size: 1.25rem;
   color: #0f1111;
   background-color: #febd68;
+}
+/*box 4*/
+
+span {
+  font-size: 0.7rem;
+}
+.nav_second {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+/**box 5**/
+.nav-cart i {
+  font-size: 30px;
+}
+.nav-cart {
+  margin-right: 1rem;
+  font-size: 0.85rem;
+  font-weight: 700;
 }
