@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: Arial;
 }
+body {
+  background-color: #e3e6e6;
+}
 .navbar {
   height: 60px;
   width: 100%;
@@ -113,7 +116,7 @@ span {
 }
 /**panel**/
 
-.panel{
+.panel {
   height: 39px;
   width: 100%;
   background-color: #232f3e;
@@ -126,22 +129,105 @@ span {
 .panel a {
   font-size: 0.9rem;
   font-weight: 520;
+  padding: 5px;
   text-decoration: none;
   color: #e6e6e6; /* Set the color as needed */
 }
-.panel-all i{
+.panel-all i {
   font-size: 1.25rem;
 }
-.panel-all{
+.panel-all {
   display: flex;
   gap: 0.4rem;
   justify-content: center;
   align-items: center;
   margin-left: 10px;
 }
-.panel-menu{
+.panel-menu {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+
+/**Hero Section**/
+
+.hero-section {
+  background-image: url("util/hero_image.jpg");
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+.hero-message {
+  background-color: white;
+  height: 40px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 0.85rem;
+  position: relative;
+  top: 60%;
+}
+.hero-message a {
+  color: #007185;
+}
+/*shop section*/
+
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.shop h2 {
+  margin: 1.5rem 0 0 1.5rem;
+  font-size: 1.3rem;
+}
+
+.box {
+  background-color: white;
+  height: 26.25rem;
+  width: 22.5rem;
+}
+.shop-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin: 2rem 0 0 2rem;
+}
+.shop-content img {
+  height: 6.8rem;
+  width: 8rem;
+}
+.shop-content2 img {
+  height: 17rem;
+  width: 17rem;
+  margin: 2rem 0 0 2.7rem;
+}
+/**shop2*/
+.shop2 {
+  display: flex;
+  justify-content: center;
+}
+.box-shop2 {
+  background-color: white;
+  width: 95.45%;
+  height: 14.25rem;
+  margin-top: 1.5rem;
+}
+.header-shop2 {
+  margin: 1rem 0 0 1.7rem;
+}
+.content-shop2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.85rem;
+}
+.content-shop2 img {
+  height: 9.8rem;
+  width: 11rem;
 }
